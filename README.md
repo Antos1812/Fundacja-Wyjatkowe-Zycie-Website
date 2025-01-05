@@ -2,6 +2,7 @@
 # Fundacja Wyjątkowe Życie Website
 
 Welcome to the official website of **Fundacja Wyjątkowe Życie**! This project aims to provide an online presence for the foundation, showcasing its mission, services, and the amazing work they do to help individuals lead exceptional lives.
+
 ![image](https://github.com/user-attachments/assets/310dcb1f-a8c0-4a38-b0aa-b820f00de444)
 
 ![image](https://github.com/user-attachments/assets/aeb9bfcc-5ba7-4122-9fac-c88859d3f2d5)
