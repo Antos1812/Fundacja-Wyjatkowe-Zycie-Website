@@ -35,3 +35,22 @@ Welcome to the official website of **Fundacja Wyjątkowe Życie**! This project 
 
    ```bash
    git clone https://github.com/Antos1812/Fundacja-Wyjatkowe-Zycie-Website
+
+2. Open the project in your preferred code editor.
+3. Open the index.html file in a browser to view the website.
+## Running Locally
+To run the website locally, you can simply open the `index.html` file in a web browser. For more advanced local development, you can set up a simple HTTP server using tools like Live Server in Visual Studio Code.
+
+## Contributing
+We welcome contributions! If you would like to help us improve the website or add new features, feel free to fork the repository, create a new branch, and submit a pull request.
+
+## Steps to Contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request on GitHub.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
