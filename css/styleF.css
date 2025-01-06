@@ -106,3 +106,7 @@ body {
 #Title:hover{
     color:rgb(212, 108, 152);
 }
+
+#documents{
+    margin: 0 auto;
+}
