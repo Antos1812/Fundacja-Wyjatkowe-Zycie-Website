@@ -184,9 +184,22 @@ body {
 }
 
 #ulStyle{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'AbolitionTest-Round', sans-serif;
     font-size:36px;
+}
+#liText{
+    color:rgb(173, 173, 173);
+}
+#liText:hover{
+    color:white;
+}
+#specText{
+    color:white;
+    transition: 0.25s;
+}
+#specText:hover{
+    text-shadow: 1px 1px 25px rgba(255, 255, 255, 0.5);
 }
 
 #ytFrame{
