@@ -18,13 +18,26 @@
 }
 @font-face {
     font-family: 'AbolitionTest-Regular';
-    src: url('C:\Users\User\Desktop\www\TereniaTv\TereniaTv-WEB\assets\fonts\AbolitionTest-Oblique.otf') format('opentype');
+    src: url('/assets/fonts/AbolitionTest-Regular.otf') format('opentype');
     font-weight:normal;
     font-style:normal;
 }
 @font-face {
     font-family: 'AbolitionTest-Rough';
     src: url('/assets/fonts/AbolitionTest-Rough.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: 'LilGrotesk-Bold';
+    src: url('/assets/fonts/LilGrotesk-Bold.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'AbolitionTest-Round';
+    src: url('/assets/fonts/AbolitionTest-Round.otf') format('opentype');
     font-weight:normal;
     font-style:normal;
 }
@@ -102,7 +115,7 @@ body {
     max-width: 800px; 
     padding: 20px; 
     text-align: justify; 
-    font-size: 14.5px;
+    font-size: 15px;
     margin: 0 auto;
     font-family: 'Antonio-Light', sans-serif;
 }
@@ -172,7 +185,8 @@ body {
 
 #ulStyle{
     color: white;
-    font-family: 'AbolitionTest-Rough', sans-serif;
+    font-family: 'AbolitionTest-Round', sans-serif;
+    font-size:36px;
 }
 
 #ytFrame{
@@ -188,4 +202,36 @@ body {
     font-family: 'AbolitionTest-Rough', sans-serif;
     font-size: 25px;
     color: black;
+}
+
+#subscriptionForm{
+    width: 200px;
+    height: 70px;
+    position:fixed;
+    margin-left: -10px;
+    background-color: #333;
+    transition: 0.5s;
+}
+#subscriptionForm:hover{
+    box-shadow: 4px 4px 25px rgba(190, 216, 46, 0.5);
+}
+
+#subMail{
+    margin-top:4px;
+}
+
+#subBut{
+    height: 25px;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(48, 47, 47);
+    border-color: #ffffff00;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    transition: 0.7s ease-in;
+}    
+#subBut:hover{
+    background-color: rgb(238, 189, 64);
+    box-shadow: 2px 2px 20px rgba(211, 228, 61, 0.596);
 }
