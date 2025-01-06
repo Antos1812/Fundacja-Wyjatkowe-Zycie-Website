@@ -1,0 +1,16 @@
+To-Do list for website
+
+1. Make more subpages
+
+2. Add more UI && UX
+
+3. Optimaze all the pages
+
+4. Make  pfd file to download by button and to open manually by user not auto on web from start.
+
+5. Add more files from src Website
+
+6. Work on subsription function
+
+7. Moved each document to TereniaTv subpage, FrameRunning, Fundation
+ 
