@@ -30,15 +30,10 @@ function renderPDF(pdfData) {
             });
         });
     });
-}
-
-document.getElementById('file-input').addEventListener('change', function(event) {
-    const fileInput = event.target;
-    const file = fileInput.files[0];
+}   
     
-    if (file && file.type === 'application/pdf') {
-        loadPDF(file);
-    } else {
-        alert('Proszę wybrać plik PDF!');
-    }
-});
+function showPDF() {
+    const pdfSection = document.getElementById("PDFsection");
+    pdfSection.style.display = pdfSection.style.display === "none" || pdfSection.style.display === "" ? "block" : "none";
+    console.log("PDF files toggled!");
+}
