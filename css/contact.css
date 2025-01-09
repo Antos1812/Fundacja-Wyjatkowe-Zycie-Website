@@ -212,3 +212,13 @@ a:hover {
     font-size:18px;
     font-weight: bold;
 }
+
+#PDFbutton{
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 8px 15px;
+}
+
+#email{
+    margin-bottom: 40px;
+}
