@@ -1,131 +1,224 @@
 @font-face {
-    font-family: 'Antonio-Bold';
-    src: url('/assets/fonts/Antonio-Bold.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'Antonio-Bold';
+  src: url('/assets/fonts/Antonio-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
 }
 @font-face {
-    font-family: 'Antonio-Regular';
-    src: url('/assets/fonts/Antonio-Regular.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'Antonio-Regular';
+  src: url('/assets/fonts/Antonio-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
 }
 @font-face {
-    font-family: 'Antonio-Light';
-    src: url('/assets/fonts/Antonio-Light.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'Antonio-Light';
+  src: url('/assets/fonts/Antonio-Light.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
 }
 @font-face {
-    font-family: 'AbolitionTest-Regular';
-    src: url('/assets/fonts/AbolitionTest-Regular.otf') format('opentype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'AbolitionTest-Regular';
+  src: url('/assets/fonts/AbolitionTest-Regular.otf') format('opentype');
+  font-weight:normal;
+  font-style:normal;
 }
 @font-face {
-    font-family: 'AbolitionTest-Rough';
-    src: url('/assets/fonts/AbolitionTest-Rough.otf') format('opentype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'AbolitionTest-Rough';
+  src: url('/assets/fonts/AbolitionTest-Rough.otf') format('opentype');
+  font-weight:normal;
+  font-style:normal;
 }
 @font-face {
-    font-family: 'LilGrotesk-Bold';
-    src: url('/assets/fonts/LilGrotesk-Bold.otf') format('opentype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'LilGrotesk-Bold';
+  src: url('/assets/fonts/LilGrotesk-Bold.otf') format('opentype');
+  font-weight:normal;
+  font-style:normal;
 }
 
 @font-face {
-    font-family: 'AbolitionTest-Round';
-    src: url('/assets/fonts/AbolitionTest-Round.otf') format('opentype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'AbolitionTest-Round';
+  src: url('/assets/fonts/AbolitionTest-Round.otf') format('opentype');
+  font-weight:normal;
+  font-style:normal;
 }
-
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f5f5f5;
-    color: #333;
-  }
-  
-  header {
-    background-color: rgb(29, 29, 29);
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-    font-family: 'Antonio-Bold', sans-serif;
-    box-shadow: 9px 10px 25px rgba(212, 108, 151, 0);
-    transition: 0.43s ease-out;
-    border-radius: 0%;
-    border-color: rgb(29, 29, 29);
-  }
-  header:hover{
-    box-shadow: 9px 10px 25px rgb(54, 54, 54);
-    transform: scaleY(1.03) rotate(-0.2deg) scale(1.006);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #333;
+}
 
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 1em;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #333;
-    color: white;
-  }
+header {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  font-family: 'Antonio-Bold', sans-serif;
+  box-shadow: 9px 10px 25px rgba(212, 108, 151, 0);
+  transition: 0.43s ease-out;
+  border-radius: 0%;
+  border-color: rgb(29, 29, 29);
+}
+header:hover{
+  box-shadow: 9px 10px 25px rgb(54, 54, 54);
+  transform: scaleY(1.03) rotate(-0.2deg) scale(1.006);
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+}
+
+section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #20262b;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.6s ease-in;
+}
+
+button:hover {
+  background-color: #40484f;
+  box-shadow: 1px 1px 20px rgba(43, 38, 38, 0.241);
+}
+
+a {
+  color: #1d2124;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #e0e0e0;
+}
 
 #Title{
-    cursor: pointer;
-    color:white;
-    transition: 0.4s ease-out;
-    font-family: 'AbolitionTest-Light', sans-serif;
-    font-size: 41px;
-    box-shadow: 9px 10px 25px rgba(255, 255, 255, 0);
+  cursor: pointer;
+  color:white;
+  transition: 0.4s ease-out;
+  font-family: 'AbolitionTest-Light', sans-serif;
+  font-size: 41px;
+  box-shadow: 9px 10px 25px rgba(255, 255, 255, 0);
 }
 #Title:hover{
-    color:rgb(212, 108, 152);
+  color:rgb(212, 108, 152);
+}
+
+#Title1{
+  color:rgb(68, 68, 68);
+  font-family: 'AbolitionTest-Round', sans-serif;
+  font-size: 40px;
 }
 
 #documents{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #ulStyle{
-    color: rgb(255, 255, 255);
-    font-family: 'AbolitionTest-Round', sans-serif;
-    font-size:36px;
+  color: rgb(255, 255, 255);
+  font-family: 'AbolitionTest-Round', sans-serif;
+  font-size:36px;
 }
 #liText{
-    color:rgb(173, 173, 173);
+  color:rgb(173, 173, 173);
 }
 #liText:hover{
-    color:white;
+  color:white;
 }
 #specText{
-    color:white;
-    transition: 0.25s;
+  color:white;
+  transition: 0.25s;
 }
 #specText:hover{
-    text-shadow: 1px 1px 25px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 25px rgba(255, 255, 255, 0.5);
+}
+.input1{
+  border-color: rgba(255, 255, 255, 0);
+}
+
+#InfoT{
+  color:rgb(130, 116, 116);
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 'AbolitionTest-Round', sans-serif;
+  font-size:22px;
+}
+
+#InfoTp{        
+  color:rgb(130, 116, 116);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+  font-weight: bold;
+}
+
+#PDFbutton{
+  margin-top: 20px;
+  margin: 0 auto;
+  padding: 8px 15px;
+}
+
+#email{
+  margin-bottom: 40px;
 }
